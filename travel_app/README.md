@@ -10,12 +10,12 @@ Welcome to the **Travel App Planner**! This web application allows users to plan
 - **Image of the Destination**: See a beautiful image of your travel destination.
 - **Trip List**: View your trips with all the entered details.
 
-## Technologies Used
+##  Build Tools
 
-- **HTML**: For structuring the app.
-- **CSS/SCSS**: For styling the app.
-- **JavaScript**: For dynamic content and functionality.
-- **APIs**:
+* HTML 
+* SASS
+* JavaScript
+**APIs
   - **GeoNames API**: To get geographical information about the destination.
   - **open weather API**: To get weather data for the destination.
   - **Pixabay API**: To get images of the destination.
