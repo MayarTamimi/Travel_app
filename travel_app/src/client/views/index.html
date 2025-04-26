@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Travel App</title>
+</head>
+<body>
+    <!-- Header -->
+     <header>
+        <h1>Welcome to Travel App planner</h1>
+        <p>Plan your next trip with ease!</p>
+     </header>
+     <main>
+        <section class = "trip-planner-form">
+            <p>Enter your trip details</p>
+            <form id = "trip-form">
+                <label for = "destination">Destination</label>
+                <input type = "text" name = "destination" id = "destination">
+
+                <label for = "startDate">Start Date</label>
+                <input type = "date" name = "startDate" id = "startDate">
+                
+                <label for = "endDate">End Date</label>
+                <input type = "date" name = "endDate" id = "endDate">
+                
+                <button type = "submit" id = "submit">Submit</button>
+            </form>
+        </section>
+        <section class = "trip-list">
+            <h2>your Trips</h2>
+            <ul id = "trip-list"></ul>
+        </section>
+     </main>
+    <footer>
+        <p>&copy;2025 Travel App</p>
+        <h6>Created by Mayar Al-Tamimi</h6>
+        <div class="social-media">
+            <a href="https://facebook.com" target="_blank" title="Facebook">
+            </a>
+            <a href="https://twitter.com" target="_blank" title="Twitter">
+            </a>
+            <a href="https://instagram.com" target="_blank" title="Instagram">
+            </a>
+            <a href="https://github.com" target="_blank" title="Github">
+              </a>
+          </div>
+    </footer>
+    <script>
+    //   // Check that service workers are supported
+    //     if ('serviceWorker' in navigator) {
+    //     // Use the window load event to keep the page load performant
+    //     window.addEventListener('load', () => {
+    //         navigator.serviceWorker.register('/service-worker', { scope: '/' })
+    //         .then((registration) => {
+    //             console.log('Service Worker registered with scope:', registration.scope);
+    //         })
+    //         .catch((error) => {
+    //             console.log('Service Worker registration failed:', error);
+    //         });
+    // //     });
+    // //     }
+
+    //     // In-line Service Worker Script (no external file needed)
+    //     if ('serviceWorker' in navigator) {
+    //     navigator.serviceWorker.register('/service-worker')
+    //         .then((registration) => {
+    //         console.log('Service Worker registered successfully:', registration);
+    //         })
+    //         .catch((error) => {
+    //         console.log('Service Worker registration failed:', error);
+    //         });
+    //     }
+    </script>
+</body>
+</html>
