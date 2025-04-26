@@ -15,7 +15,7 @@ Welcome to the **Travel App Planner**! This web application allows users to plan
 * HTML 
 * SASS
 * JavaScript
-**APIs
+*APIs
   - **GeoNames API**: To get geographical information about the destination.
   - **open weather API**: To get weather data for the destination.
   - **Pixabay API**: To get images of the destination.
